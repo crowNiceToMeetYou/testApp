@@ -1,0 +1,11 @@
+#terminal div {
+    color: gray;
+}
+
+#terminal div.out {
+    color: rgb(168, 24, 24);
+}
+
+#terminal div.in {
+    color: rgb(76, 170, 246);
+}
