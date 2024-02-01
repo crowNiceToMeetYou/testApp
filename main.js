@@ -155,7 +155,7 @@ function disconnect() {
 }
 
 
-/* function send(data) {
+function send(data) {
   data = String(data);
 
   if (!data || !characteristicCache) {
@@ -184,5 +184,4 @@ function disconnect() {
 
 function writeToCharacteristic(characteristic, data) {
     characteristic.writeValue(new TextEncoder().encode(data));
-  } 
-/
+  }
