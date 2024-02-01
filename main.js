@@ -1,8 +1,8 @@
 let connectButton = document.getElementById('connect');
 let disconnectButton = document.getElementById('disconnect');
 let terminalContainer = document.getElementById('terminal');
-let sendForm = document.getElementById('send-form');
-let inputField = document.getElementById('input');
+//let sendForm = document.getElementById('send-form');
+//let inputField = document.getElementById('input');
 
 
 connectButton.addEventListener('click', function() {
@@ -155,7 +155,7 @@ function disconnect() {
 }
 
 
-function send(data) {
+/* function send(data) {
   data = String(data);
 
   if (!data || !characteristicCache) {
@@ -184,4 +184,5 @@ function send(data) {
 
 function writeToCharacteristic(characteristic, data) {
     characteristic.writeValue(new TextEncoder().encode(data));
-  }
+  } 
+/
